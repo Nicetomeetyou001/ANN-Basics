@@ -1,15 +1,15 @@
 # ANN Basics
 
-Dự án demo MLP sử dụng PyTorch
+Simple MLP demo project using PyTorch
 
-## File chính
-- **`main.py`**: Train và lưu model (`regression_model.pth`)
-- **`inference.py`**: Load model đã lưu và dự đoán kết quả mới
+## Main files
+- **`main.py`**: Trains and saves the model (`regression_model.pth`)
+- **`inference.py`**: Loads the saved model and predicts new results
 
-## Hướng dẫn chạy
+## How to run
 
-1. **Cài đặt thư viện:** pip install torch
+1. **Install library:** pip install torch
 
-2. **Huấn luyện mô hình:** python main.py
+2. **Train the model:** python main.py
 
-3. **Chạy thử dự đoán:** python inference.py
+3. **Run inference:** python inference.py
